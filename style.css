@@ -1,0 +1,156 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+ 
+   
+}
+
+.container-left {
+    display: inline-block;
+    width: 65%;
+    margin-top: 20%;
+    margin-left: 7%;
+}
+
+.container-right {
+    display: inline-block;
+    width: 35%;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 50vw;
+    position: absolute;
+    
+}
+
+h1 {
+    width: 368px;
+    color: #5D5D7D;   
+    font-size: 70px;
+    line-height: 80px;   
+    margin-bottom: 15px;
+}
+
+p {
+    width: 540px;
+    color: #5D5D7D;
+    font-size: 28px;
+    line-height: 48px;
+    margin-bottom: 15px;
+}
+
+.main-button {
+    width: 269px;
+    height: 62px;
+    flex-shrink: 0;
+    background: #9499EA;
+    filter: drop-shadow(0px 10px 24px rgba(148, 153, 234, 0.10));
+    color: #FFF;
+    font-size: 24px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+.logo-image{
+    width: 456px;
+    height: 561.95px;
+
+    position: relative;
+    left: -140px;
+}
+
+header{
+    color: #5D5D7D;
+    font-size: 28px;
+    margin: 24.12px 58px 160.54px 57px;
+}
+
+a{
+    margin-left: 41px;
+    cursor: pointer;
+}
+
+a:nth-child(2){
+    opacity: 0.4;
+}
+
+a:hover{
+    opacity: 0.2;
+}
+
+a:active{
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 900px){
+
+    header{
+        display: none;
+    }
+
+    .container-left{
+        display: list-item;
+    }
+
+    .container-right{
+        height: 50vh;
+        width: 100vw;
+        margin-top: 15%;
+        background-color: rgba(93, 93, 125, 0.16);
+    }
+
+    h1{
+        text-align: center;
+        position: relative;
+        width: 268px;
+        color: #5D5D7D;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 52px;
+        left: 13%;
+    }
+
+    p{
+        width: 296px;
+        color: #5D5D7D;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        position: relative;
+        left: 7%;
+    }
+
+    .main-button{
+        width: 269px;
+        height: 62px;
+        flex-shrink: 0;
+        fill: #9499EA;
+        filter: drop-shadow(0px 10px 24px rgba(148, 153, 234, 0.10));
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+        position: relative;
+        left: 12%;
+    }
+
+    .logo-image{
+        width: 310px;
+        height: 345px;
+        position: sticky;
+        left: 50px;
+    }
+
+
+}
